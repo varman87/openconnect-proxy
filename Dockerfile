@@ -6,6 +6,7 @@ RUN apt-get -qqy update && \
     apt-get -qqy install \
       openconnect \
       ocproxy \
+      stoken \
       polipo
 
 # Setup openconnect proxy entrypoint
